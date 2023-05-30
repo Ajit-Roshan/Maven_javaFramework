@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MavenSuite">
+  <test thread-count="5" name="MavenTest">
+    <classes>
+      <class name="first.First_java"/>
+    </classes>
+  </test> <!-- MavenTest -->
+</suite> <!-- MavenSuite -->
