@@ -1,13 +1,17 @@
 package first;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class First_java {
 
+
+//	public static void main(String args[]) throws Throwable {
+	
 	@Test
-	public void test1() throws Throwable {
+	public void main() throws Throwable {
 		
 //		WebDriverManager.chromedriver().setup();
 		WebDriver dr= new ChromeDriver();
